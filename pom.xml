@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Tau</groupId>
-	<artifactId>Ci-course-project</artifactId>
+	<artifactId>course-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -44,17 +44,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0</version>
-				<configuration>
-					<configuration>	        
-						<skipTests>false</skipTests>    
-					</configuration>
-					<parallel>methods</parallel>
-					<threadCount>2</threadCount>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
+				<version>2.21.0</version>
 			</plugin>
 		</plugins>
 	</build>
