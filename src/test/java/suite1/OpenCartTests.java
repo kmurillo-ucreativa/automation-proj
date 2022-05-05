@@ -17,6 +17,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class OpenCartTests {
+	
+	public OpenCartTests(){
+		System.setProperty("browser", "C:\\selenium-java-4.1.4\\chromedriver_win32\\chromedriver.exe");
+	}
 
 	//For demonstrating parameterized builds
 	String browser = System.getProperty("browser");
